@@ -1,0 +1,11 @@
+name: youtube-box
+author: Artem Dontsov
+description: Get last video from youtube in a gist
+
+runs:
+  using: node12
+  main: ./index.js
+
+branding:
+  icon: video
+  color: red

@@ -1,11 +1,11 @@
-name: youtube-box
+name: youtubebox
 on:
   schedule:
     - cron: '0 * * * *'  # hourly
   push:
     branches: master
 jobs:
-  musicbox:
+  youtubebox:
    runs-on: ubuntu-latest
    steps:
      - uses: actions/checkout@v2
