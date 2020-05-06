@@ -28,7 +28,7 @@ const updateGist = async ({ box }) => {
     gist_id: gistId,
     files: {
       [filename]: {
-        filename: '📺 Last Published On YouTube',
+        filename: '📺 Last Video On ExtremeCode',
         content: box
       }
     }
