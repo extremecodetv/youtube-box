@@ -40,9 +40,9 @@ const main = async () => {
   const video = respone.items.shift()
 
   const box = stripIndents`
-    link: https://youtu.be/${video.id.videoId}
     title: ${video.snippet.title}
-    description: ${video.snippet.description}
+    desc: ${video.snippet.description}
+    link: https://youtu.be/${video.id.videoId}
   `
 
   await updateGist({ box })
